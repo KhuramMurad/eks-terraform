@@ -1,0 +1,25 @@
+
+# Terraform-specific files
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Sensitive or user-specific files
+.terraformrc
+terraform.rc
+
+# OS and Editor files
+.DS_Store
+*.swp
+*.bak
+*.log
+*.tmp
+.idea/
+.vscode/
+*.iml
